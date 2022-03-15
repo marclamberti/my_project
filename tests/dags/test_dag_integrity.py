@@ -9,7 +9,7 @@ def test_nb_dag():
     """
     dag_bag = DagBag(include_examples=False)
     nb_dags = len(dag_bag.dags.items())
-    assert nb_dags == 2, "Wrong number of dags, {0} expected got {1}".format(2, nb_dags)
+    assert nb_dags == 3, "Wrong number of dags, {0} expected got {1}".format(3, nb_dags)
 
 def test_dagbag():
     """
